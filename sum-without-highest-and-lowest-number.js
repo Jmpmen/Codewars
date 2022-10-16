@@ -15,11 +15,11 @@ function sumArray(array) {
     }
   }
 
-function sumArray(array) {
-    if (array && array.length > 2){
-      array.sort((a,b)=>a-b)
-      return array.reduce((acc,c)=>acc+c,0) - array[0] - array[array.length-1]
-    }else{
-      return 0
-    }
-  }
+// function sumArray(array) {
+//     if (array && array.length > 2){
+//       array.sort((a,b)=>a-b)
+//       return array.reduce((acc,c)=>acc+c,0) - array[0] - array[array.length-1]
+//     }else{
+//       return 0
+//     }
+//   }
