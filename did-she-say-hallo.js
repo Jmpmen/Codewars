@@ -18,6 +18,6 @@
 // function should be case insensitive to pass the tests
 
 function validateHello(greetings) {
-    res =  /hello|ciao|salut|hallo|hola|ahoj|czesc/.test(greetings) 
+    res =  /hello|ciao|salut|hallo|hola|ahoj|czesc/gi.test(greetings) 
     return res
 }
